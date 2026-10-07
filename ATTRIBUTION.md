@@ -1,4 +1,4 @@
-Peer Pressure is built using the following open source software, for complete licenses see [license.md](../../license):
+Peer Pressure is built using the following open source software, for complete licenses see [license.md](/LICENSE):
 |Name|Version|License|Purpose|
 |----|-------|-------|-------|
 |[BearSSL](https://bearssl.org/index.html)| 0.6 | MIT |SSL/TLS 1.2 support. |
