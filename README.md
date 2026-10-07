@@ -68,6 +68,6 @@ It's inevitable that people will just reverse engineer, modify, and repackage my
 # Credits
 I wanna give a big thanks to InvoxiPlayGames for the Rock Band Blitz entry point and Máté for the stage 3 improvements that made this all possible.
 
-
+Another big thanks to the alpha testers: InvoxiPlayGames, Máté, MrMario2011, Harley David-San, ihatecompvir, xbox7887, and lander. Without them I most likely would have thrown in the towel due to lack of motivation.
 
 And a final thank you to everyone who actually helped beta test and work out the final bugs before release. Thanks to your efforts several bugs were fixed before the public release.
