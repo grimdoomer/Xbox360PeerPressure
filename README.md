@@ -63,7 +63,11 @@ I have decided not to release the source code for this for a few reasons:
 1. Everything I make and release I do for free in my own time. This is a hobby for me and something I do for fun. Given the state of software development I no longer feel the need to release the source code for everything I make just so people can make a million forks of it and kill any motivation I have to work on it. **I make this stuff for myself and not anyone else.**
 2. The world doesn't need 15 "slopsoftmods". It took a LOT of work to not only develop this exploit chain but also package it into an easy to use installer and do testing to try and make sure it wouldn't break someone's console. Making these modifications to your console can cause it to stop working, and I don't see why someone who doesn't understand the risks, work it took to make, or how the OS functions, should be able to clone a turn-key repository, make one change, slap their name on it, and tell people "go download my softmod".
 
-It's inevitable that people will just reverse engineer, modify, and repackage my work as their own, so for anyone who's thinking about using such things heed this warning: There's real risk installing these types of modifications on your console. While my work may not be "perfect, bug free, etc.", I have taken utmost care to make sure it's unlikely to cause any hard to your console and that you should always be able to boot into retail mode to recover from anything that goes wrong. Other people copying my work may not do the same. If you don't trust the people making the modifications don't install them.
+It's inevitable that people will just reverse engineer, modify, and repackage my work as their own. While my work may not be "perfect, bug free, etc.", I have taken utmost care to make sure it's unlikely to cause any harm to your console and that you should always be able to boot into retail mode to recover from anything that goes wrong. Other people copying my work may not do the same. If you don't trust the people making the modifications don't install them.
 
 # Credits
+I wanna give a big thanks to InvoxiPlayGames for the Rock Band Blitz entry point and Máté for the stage 3 improvements that made this all possible.
 
+
+
+And a final thank you to everyone who actually helped beta test and work out the final bugs before release. Thanks to your efforts several bugs were fixed before the public release.
