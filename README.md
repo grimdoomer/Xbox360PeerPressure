@@ -1,5 +1,5 @@
 # Peer Pressure Softmod For Xbox 360
-Peer Pressure is a persistent softmod exploit for Xbox 360. It works by making some modifications to the console NAND image and HDD security sectors to trigger a series of DMA attacks during startup which ultimately allow you to run unsigned code. Here's some of the features that Peer Pressure provides, for a complete list see [Softmod Features](/wiki/Softmod-Features):
+Peer Pressure is a persistent softmod exploit for Xbox 360. It works by making some modifications to the console NAND image and HDD security sectors to trigger a series of DMA attacks during startup which ultimately allow you to run unsigned code. Here's some of the features that Peer Pressure provides, for a complete list see [Softmod Features](../../wiki/Softmod-Features):
 - Removes all code signing restrictions on executables files allowing you to run homebrew applications.
 - Removes licensing and security checks for games, downloadable content, arcade games, indie games, etc.
 - Includes 3 different modes to boot your console allowing you to easily switch between a hacked and retail state.
@@ -38,12 +38,12 @@ To use this exploit you will need a hard drive, it doesn't need to be an officia
 During beta testing it was found that * *some* * SSDs will also work with the exploit, with the common factor being ones with DRAM cache were more likely to work with the exploit. You can try to use the exploit with a SSD if you choose, however, for optimal boot times and reliability it's recommended to use a mechanical HDD instead.
 
 ## How To Install
-For detailed steps on how to install the Peer Pressure softmod please see the [Installation](/wiki/Installation) page in the wiki.
+For detailed steps on how to install the Peer Pressure softmod please see the [Installation](../../wiki/Installation) page in the wiki.
 
 ## Boot Times
 When everything is working correctly the expected boot times should be about ~5 seconds longer than the boot times of an unmodified console. Given that this exploit is based on a race condition if the attack isn't successful the SMC will automatically reboot the console to try again, adding additional time to bootup. However, the exploit typically triggers on the first attempt (results will vary if using a SSD) so this should be an edge case and not the norm.
 
-Two factors that'll increase the boot times are: how long the HDD takes to spin up and the size of the HDD. When the console is powered on the HDD doesn't spin up until the console tries to communicate with it, and the exploit can't begin until that happens. The longer it takes for the HDD to spin up, the longer the boot times will be. By making a [small modification to the HDD SATA adapter](/wiki/Quick-Boot-SATA-Mod) you can force the drive to spin up as soon as power is applied rather than waiting for the console to communicate with it. This will shave off ~2-3 seconds from the boot time and is what I personally use on my console. 
+Two factors that'll increase the boot times are: how long the HDD takes to spin up and the size of the HDD. When the console is powered on the HDD doesn't spin up until the console tries to communicate with it, and the exploit can't begin until that happens. The longer it takes for the HDD to spin up, the longer the boot times will be. By making a [small modification to the HDD SATA adapter](../../wiki/Quick-Boot-SATA-Mod) you can force the drive to spin up as soon as power is applied rather than waiting for the console to communicate with it. This will shave off ~2-3 seconds from the boot time and is what I personally use on my console. 
 
 However, the mod requires precision soldering so if you aren't able to do something like the RGH install with ease you most likely won't be able to perform this mod either. Despite using this on my own console I wouldn't recommend it unless you really want to speed run the boot times.
 
@@ -56,7 +56,7 @@ When I decided to make Peer Pressure **I wanted a clean slate to make my own thi
 
 **If this bothers you you don't have to use it.**
 
-For some of the features people currently use dashlaunch plugins for (xbdm, HID controller support, etc.) I would like to add these as mainline features in the future. However, this all depends on time and motivation. For a list of features that are currently planned for the next release see [Feature Requests/Roadmap](/issues/1).
+For some of the features people currently use dashlaunch plugins for (xbdm, HID controller support, etc.) I would like to add these as mainline features in the future. However, this all depends on time and motivation. For a list of features that are currently planned for the next release see [Feature Requests/Roadmap](../../issues/1).
 
 # Where's the Source Code?
 I have decided not to release the source code for this for a few reasons:
