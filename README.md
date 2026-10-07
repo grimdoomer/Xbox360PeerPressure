@@ -66,7 +66,7 @@ I have decided not to release the source code for this for a few reasons:
 It's inevitable that people will just reverse engineer, modify, and repackage my work as their own. While my work may not be "perfect, bug free, etc.", I have taken utmost care to make sure it's unlikely to cause any harm to your console and that you should always be able to boot into retail mode to recover from anything that goes wrong. Other people copying my work may not do the same. If you don't trust the people making the modifications don't install them.
 
 # Credits
-I wanna give a big thanks to InvoxiPlayGames for the Rock Band Blitz entry point and Máté for the stage 3 improvements that made this all possible.
+I wanna give a big thanks to ihatecompvir and InvoxiPlayGames for the Rock Band Blitz entry point, and Máté for the stage 3 improvements that made this all possible.
 
 Another big thanks to the alpha testers: InvoxiPlayGames, Máté, MrMario2011, Harley David-San, ihatecompvir, xbox7887, and lander. Without them I most likely would have thrown in the towel due to lack of motivation.
 
