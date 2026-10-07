@@ -17,7 +17,7 @@ This softmod exploit will make modifications to your console's NAND image and HD
 # Requirements
 To use the Peer Pressure softmod you'll need the following:
 - An Xbox 360 console.
-- A mechanical HDD.
+- A mechanical HDD (some SSDs do work but are not recommended, see [HDD/SSD Compatibility](#HDD/SSD Compatibility)).
 - USB stick.
 
 ## Console Compatibility
